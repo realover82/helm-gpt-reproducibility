@@ -1,0 +1,971 @@
+{
+  "experiment": "v5_permimp_multiseed",
+  "paper_reported_spearman": 0.82,
+  "total_rows": 7451,
+  "n_rdkit_descriptors": 217,
+  "permutation_importance": {
+    "scaffold": {
+      "fingerprint_block_perm_importance_sum": 0.0071528707635752685,
+      "descriptor_block_perm_importance_sum": 0.48642226270461614,
+      "top25_by_permutation_importance": [
+        {
+          "name": "VSA_EState9",
+          "perm_importance_mean": 0.27444268989033505,
+          "perm_importance_std": 0.02956924462332055,
+          "gini_rank": 1
+        },
+        {
+          "name": "MolLogP",
+          "perm_importance_mean": 0.06722703061701962,
+          "perm_importance_std": 0.006901224548782613,
+          "gini_rank": 2
+        },
+        {
+          "name": "AvgIpc",
+          "perm_importance_mean": 0.05125371302979509,
+          "perm_importance_std": 0.006924053511027806,
+          "gini_rank": 4
+        },
+        {
+          "name": "VSA_EState5",
+          "perm_importance_mean": 0.031565623264218114,
+          "perm_importance_std": 0.004213928480713684,
+          "gini_rank": 3
+        },
+        {
+          "name": "Kappa3",
+          "perm_importance_mean": 0.01188427306883948,
+          "perm_importance_std": 0.0030458481083032517,
+          "gini_rank": 13
+        },
+        {
+          "name": "MinEStateIndex",
+          "perm_importance_mean": 0.007952314157790252,
+          "perm_importance_std": 0.0018786723401791028,
+          "gini_rank": 5
+        },
+        {
+          "name": "SlogP_VSA5",
+          "perm_importance_mean": 0.006917720033876473,
+          "perm_importance_std": 0.004569926606160642,
+          "gini_rank": 18
+        },
+        {
+          "name": "BalabanJ",
+          "perm_importance_mean": 0.0045621470258191965,
+          "perm_importance_std": 0.0025946524430233713,
+          "gini_rank": 9
+        },
+        {
+          "name": "Phi",
+          "perm_importance_mean": 0.004194518864255692,
+          "perm_importance_std": 0.0012898603634447696,
+          "gini_rank": 35
+        },
+        {
+          "name": "MinPartialCharge",
+          "perm_importance_mean": 0.0036670459618567074,
+          "perm_importance_std": 0.0007586875144360757,
+          "gini_rank": 41
+        },
+        {
+          "name": "BCUT2D_MWHI",
+          "perm_importance_mean": 0.003627170773737032,
+          "perm_importance_std": 0.0005270059525273838,
+          "gini_rank": 26
+        },
+        {
+          "name": "PEOE_VSA7",
+          "perm_importance_mean": 0.0034241713927594787,
+          "perm_importance_std": 0.002641746658620313,
+          "gini_rank": 8
+        },
+        {
+          "name": "BCUT2D_CHGLO",
+          "perm_importance_mean": 0.003307862858982691,
+          "perm_importance_std": 0.0008444824415493763,
+          "gini_rank": 6
+        },
+        {
+          "name": "Chi2v",
+          "perm_importance_mean": 0.0032717570894941874,
+          "perm_importance_std": 0.0005719844112557254,
+          "gini_rank": 53
+        },
+        {
+          "name": "BCUT2D_CHGHI",
+          "perm_importance_mean": 0.0029960345229923745,
+          "perm_importance_std": 0.0004973301381892365,
+          "gini_rank": 11
+        },
+        {
+          "name": "BCUT2D_MWLOW",
+          "perm_importance_mean": 0.0025725516133449757,
+          "perm_importance_std": 0.0005749025642825298,
+          "gini_rank": 7
+        },
+        {
+          "name": "MaxAbsPartialCharge",
+          "perm_importance_mean": 0.0020368779128963734,
+          "perm_importance_std": 0.0006209122200120512,
+          "gini_rank": 44
+        },
+        {
+          "name": "VSA_EState2",
+          "perm_importance_mean": 0.0019335368729689328,
+          "perm_importance_std": 0.00041900703732967835,
+          "gini_rank": 20
+        },
+        {
+          "name": "BCUT2D_LOGPHI",
+          "perm_importance_mean": 0.001808988517253296,
+          "perm_importance_std": 0.0012301607361602284,
+          "gini_rank": 12
+        },
+        {
+          "name": "VSA_EState6",
+          "perm_importance_mean": 0.0017159916986231427,
+          "perm_importance_std": 0.0005859955829027527,
+          "gini_rank": 27
+        },
+        {
+          "name": "EState_VSA10",
+          "perm_importance_mean": 0.0015374588508469179,
+          "perm_importance_std": 0.0003689875606462932,
+          "gini_rank": 71
+        },
+        {
+          "name": "SPS",
+          "perm_importance_mean": 0.0014137155435122728,
+          "perm_importance_std": 0.00047905966086931684,
+          "gini_rank": 19
+        },
+        {
+          "name": "EState_VSA1",
+          "perm_importance_mean": 0.0012030848242016723,
+          "perm_importance_std": 0.00042606027273939224,
+          "gini_rank": 37
+        },
+        {
+          "name": "PEOE_VSA9",
+          "perm_importance_mean": 0.0011013871236084326,
+          "perm_importance_std": 0.0003781065617953425,
+          "gini_rank": 58
+        },
+        {
+          "name": "BertzCT",
+          "perm_importance_mean": 0.0010754752611774054,
+          "perm_importance_std": 0.0002687655228858871,
+          "gini_rank": 60
+        }
+      ],
+      "top25_by_gini_importance_for_comparison": [
+        {
+          "name": "VSA_EState9",
+          "gini_importance": 0.1954804696431478,
+          "perm_rank": 1
+        },
+        {
+          "name": "MolLogP",
+          "gini_importance": 0.06916878127037694,
+          "perm_rank": 2
+        },
+        {
+          "name": "VSA_EState5",
+          "gini_importance": 0.058884629523141975,
+          "perm_rank": 4
+        },
+        {
+          "name": "AvgIpc",
+          "gini_importance": 0.038716152365861296,
+          "perm_rank": 3
+        },
+        {
+          "name": "MinEStateIndex",
+          "gini_importance": 0.037193151600285336,
+          "perm_rank": 6
+        },
+        {
+          "name": "BCUT2D_CHGLO",
+          "gini_importance": 0.028836942004357186,
+          "perm_rank": 13
+        },
+        {
+          "name": "BCUT2D_MWLOW",
+          "gini_importance": 0.0179821716230416,
+          "perm_rank": 16
+        },
+        {
+          "name": "PEOE_VSA7",
+          "gini_importance": 0.016857223071144973,
+          "perm_rank": 12
+        },
+        {
+          "name": "BalabanJ",
+          "gini_importance": 0.015961249054774865,
+          "perm_rank": 8
+        },
+        {
+          "name": "VSA_EState4",
+          "gini_importance": 0.015867577061997873,
+          "perm_rank": 217
+        },
+        {
+          "name": "BCUT2D_CHGHI",
+          "gini_importance": 0.013590003094437883,
+          "perm_rank": 15
+        },
+        {
+          "name": "BCUT2D_LOGPHI",
+          "gini_importance": 0.013536262000441317,
+          "perm_rank": 19
+        },
+        {
+          "name": "Kappa3",
+          "gini_importance": 0.011692253609230019,
+          "perm_rank": 5
+        },
+        {
+          "name": "BCUT2D_MRHI",
+          "gini_importance": 0.011461408234792855,
+          "perm_rank": 179
+        },
+        {
+          "name": "MinAbsEStateIndex",
+          "gini_importance": 0.011365484613917561,
+          "perm_rank": 27
+        },
+        {
+          "name": "VSA_EState7",
+          "gini_importance": 0.011243054729903208,
+          "perm_rank": 216
+        },
+        {
+          "name": "BCUT2D_MRLOW",
+          "gini_importance": 0.010964023368122501,
+          "perm_rank": 215
+        },
+        {
+          "name": "SlogP_VSA5",
+          "gini_importance": 0.010330236014140775,
+          "perm_rank": 7
+        },
+        {
+          "name": "SPS",
+          "gini_importance": 0.010139670622663733,
+          "perm_rank": 22
+        },
+        {
+          "name": "VSA_EState2",
+          "gini_importance": 0.009891802023542347,
+          "perm_rank": 18
+        },
+        {
+          "name": "BCUT2D_LOGPLOW",
+          "gini_importance": 0.009806762352383981,
+          "perm_rank": 176
+        },
+        {
+          "name": "VSA_EState8",
+          "gini_importance": 0.009794236188669144,
+          "perm_rank": 72
+        },
+        {
+          "name": "FpDensityMorgan3",
+          "gini_importance": 0.009422459761800273,
+          "perm_rank": 214
+        },
+        {
+          "name": "PEOE_VSA6",
+          "gini_importance": 0.008562845144840688,
+          "perm_rank": 205
+        },
+        {
+          "name": "EState_VSA2",
+          "gini_importance": 0.008464158873520559,
+          "perm_rank": 43
+        }
+      ],
+      "top25_overlap_gini_vs_perm": 15,
+      "full_rank_correlation_gini_vs_perm": 0.26180473098558404
+    },
+    "random": {
+      "fingerprint_block_perm_importance_sum": 0.017125770672369502,
+      "descriptor_block_perm_importance_sum": 0.4299461979470672,
+      "top25_by_permutation_importance": [
+        {
+          "name": "VSA_EState9",
+          "perm_importance_mean": 0.24295921881812754,
+          "perm_importance_std": 0.022097594556596004,
+          "gini_rank": 1
+        },
+        {
+          "name": "MolLogP",
+          "perm_importance_mean": 0.11668643766813766,
+          "perm_importance_std": 0.01323217014756226,
+          "gini_rank": 2
+        },
+        {
+          "name": "MinEStateIndex",
+          "perm_importance_mean": 0.023528648265195528,
+          "perm_importance_std": 0.004636080583602219,
+          "gini_rank": 3
+        },
+        {
+          "name": "VSA_EState5",
+          "perm_importance_mean": 0.01474705800697459,
+          "perm_importance_std": 0.0025210086953581807,
+          "gini_rank": 4
+        },
+        {
+          "name": "AvgIpc",
+          "perm_importance_mean": 0.006399165774134519,
+          "perm_importance_std": 0.002088830757263296,
+          "gini_rank": 9
+        },
+        {
+          "name": "BCUT2D_LOGPHI",
+          "perm_importance_mean": 0.005495897188538301,
+          "perm_importance_std": 0.003480331671384941,
+          "gini_rank": 8
+        },
+        {
+          "name": "VSA_EState4",
+          "perm_importance_mean": 0.0041019141512738996,
+          "perm_importance_std": 0.004143200136684014,
+          "gini_rank": 6
+        },
+        {
+          "name": "NumRotatableBonds",
+          "perm_importance_mean": 0.003838212621428283,
+          "perm_importance_std": 0.0009798018839608706,
+          "gini_rank": 12
+        },
+        {
+          "name": "BCUT2D_MWLOW",
+          "perm_importance_mean": 0.0033509647319823533,
+          "perm_importance_std": 0.0026510352829755336,
+          "gini_rank": 10
+        },
+        {
+          "name": "PEOE_VSA6",
+          "perm_importance_mean": 0.0033361131158046063,
+          "perm_importance_std": 0.000981881229208773,
+          "gini_rank": 11
+        },
+        {
+          "name": "VSA_EState6",
+          "perm_importance_mean": 0.002672529929026424,
+          "perm_importance_std": 0.0015435992042609813,
+          "gini_rank": 18
+        },
+        {
+          "name": "BCUT2D_MRHI",
+          "perm_importance_mean": 0.0023229509437029173,
+          "perm_importance_std": 0.0009504676687028218,
+          "gini_rank": 15
+        },
+        {
+          "name": "FpDensityMorgan3",
+          "perm_importance_mean": 0.002109636746488952,
+          "perm_importance_std": 0.0016962442856461547,
+          "gini_rank": 28
+        },
+        {
+          "name": "qed",
+          "perm_importance_mean": 0.0020095973065844984,
+          "perm_importance_std": 0.0013321779794867815,
+          "gini_rank": 13
+        },
+        {
+          "name": "MolWt",
+          "perm_importance_mean": 0.0017402834039693337,
+          "perm_importance_std": 0.0003249644646331286,
+          "gini_rank": 69
+        },
+        {
+          "name": "PEOE_VSA9",
+          "perm_importance_mean": 0.001674208491434448,
+          "perm_importance_std": 0.0005432048219128573,
+          "gini_rank": 43
+        },
+        {
+          "name": "BalabanJ",
+          "perm_importance_mean": 0.0015386945876702974,
+          "perm_importance_std": 0.0021914934265750913,
+          "gini_rank": 7
+        },
+        {
+          "name": "ExactMolWt",
+          "perm_importance_mean": 0.001473307278099023,
+          "perm_importance_std": 0.0003511519276059947,
+          "gini_rank": 67
+        },
+        {
+          "name": "FpDensityMorgan2",
+          "perm_importance_mean": 0.0011258862489551102,
+          "perm_importance_std": 0.0011199720274868384,
+          "gini_rank": 34
+        },
+        {
+          "name": "BCUT2D_CHGLO",
+          "perm_importance_mean": 0.0009650182110186867,
+          "perm_importance_std": 0.0019771357214928864,
+          "gini_rank": 5
+        },
+        {
+          "name": "EState_VSA11",
+          "perm_importance_mean": 0.0009158362678383103,
+          "perm_importance_std": 0.0002162172003380115,
+          "gini_rank": 86
+        },
+        {
+          "name": "EState_VSA10",
+          "perm_importance_mean": 0.0009104348193364808,
+          "perm_importance_std": 0.0007214391221330247,
+          "gini_rank": 38
+        },
+        {
+          "name": "VSA_EState3",
+          "perm_importance_mean": 0.0008977092496192274,
+          "perm_importance_std": 0.0007377363567354082,
+          "gini_rank": 27
+        },
+        {
+          "name": "VSA_EState2",
+          "perm_importance_mean": 0.0008492724141328734,
+          "perm_importance_std": 0.0013695349681217676,
+          "gini_rank": 20
+        },
+        {
+          "name": "TPSA",
+          "perm_importance_mean": 0.0007930092524651711,
+          "perm_importance_std": 0.0011260063641091317,
+          "gini_rank": 31
+        }
+      ],
+      "top25_by_gini_importance_for_comparison": [
+        {
+          "name": "VSA_EState9",
+          "gini_importance": 0.1666955208195793,
+          "perm_rank": 1
+        },
+        {
+          "name": "MolLogP",
+          "gini_importance": 0.1411780540248213,
+          "perm_rank": 2
+        },
+        {
+          "name": "MinEStateIndex",
+          "gini_importance": 0.03944906933656343,
+          "perm_rank": 3
+        },
+        {
+          "name": "VSA_EState5",
+          "gini_importance": 0.028957744989078826,
+          "perm_rank": 4
+        },
+        {
+          "name": "BCUT2D_CHGLO",
+          "gini_importance": 0.024424638154669772,
+          "perm_rank": 20
+        },
+        {
+          "name": "VSA_EState4",
+          "gini_importance": 0.023973840399056024,
+          "perm_rank": 7
+        },
+        {
+          "name": "BalabanJ",
+          "gini_importance": 0.018659540211266923,
+          "perm_rank": 17
+        },
+        {
+          "name": "BCUT2D_LOGPHI",
+          "gini_importance": 0.01848673487986886,
+          "perm_rank": 6
+        },
+        {
+          "name": "AvgIpc",
+          "gini_importance": 0.017143050597922697,
+          "perm_rank": 5
+        },
+        {
+          "name": "BCUT2D_MWLOW",
+          "gini_importance": 0.016431732244473456,
+          "perm_rank": 9
+        },
+        {
+          "name": "PEOE_VSA6",
+          "gini_importance": 0.016029249046297916,
+          "perm_rank": 10
+        },
+        {
+          "name": "NumRotatableBonds",
+          "gini_importance": 0.014079378435529697,
+          "perm_rank": 8
+        },
+        {
+          "name": "qed",
+          "gini_importance": 0.013806797107742557,
+          "perm_rank": 14
+        },
+        {
+          "name": "BCUT2D_MRLOW",
+          "gini_importance": 0.012921993206965422,
+          "perm_rank": 204
+        },
+        {
+          "name": "BCUT2D_MRHI",
+          "gini_importance": 0.011757953129813073,
+          "perm_rank": 12
+        },
+        {
+          "name": "BCUT2D_LOGPLOW",
+          "gini_importance": 0.010647822583783273,
+          "perm_rank": 215
+        },
+        {
+          "name": "MinAbsEStateIndex",
+          "gini_importance": 0.010243821485274432,
+          "perm_rank": 217
+        },
+        {
+          "name": "VSA_EState6",
+          "gini_importance": 0.009324666692817958,
+          "perm_rank": 11
+        },
+        {
+          "name": "BCUT2D_MWHI",
+          "gini_importance": 0.008911488089468012,
+          "perm_rank": 208
+        },
+        {
+          "name": "VSA_EState2",
+          "gini_importance": 0.00890409216220723,
+          "perm_rank": 24
+        },
+        {
+          "name": "BCUT2D_CHGHI",
+          "gini_importance": 0.00889523538224215,
+          "perm_rank": 213
+        },
+        {
+          "name": "VSA_EState7",
+          "gini_importance": 0.008818714781110964,
+          "perm_rank": 191
+        },
+        {
+          "name": "EState_VSA2",
+          "gini_importance": 0.008730630300620773,
+          "perm_rank": 211
+        },
+        {
+          "name": "VSA_EState8",
+          "gini_importance": 0.008579767068576704,
+          "perm_rank": 184
+        },
+        {
+          "name": "PEOE_VSA7",
+          "gini_importance": 0.008479209650984332,
+          "perm_rank": 83
+        }
+      ],
+      "top25_overlap_gini_vs_perm": 16,
+      "full_rank_correlation_gini_vs_perm": 0.12444127021473196
+    }
+  },
+  "H2_multiseed_ablation": {
+    "scaffold": {
+      "k0": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.46076761788167586
+          },
+          {
+            "seed": 7,
+            "spearman": 0.4588034712147034
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.4916005332492366
+          },
+          {
+            "seed": 123,
+            "spearman": 0.4937925936802036
+          },
+          {
+            "seed": 999,
+            "spearman": 0.49916681725553785
+          }
+        ],
+        "spearman_mean": 0.48082620665627146,
+        "spearman_std": 0.019416096177513553,
+        "spearman_min": 0.4588034712147034,
+        "spearman_max": 0.49916681725553785
+      },
+      "k10": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.669723886612847
+          },
+          {
+            "seed": 7,
+            "spearman": 0.6293532988004104
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.6499876298989733
+          },
+          {
+            "seed": 123,
+            "spearman": 0.6678818387384743
+          },
+          {
+            "seed": 999,
+            "spearman": 0.6658856827682118
+          }
+        ],
+        "spearman_mean": 0.6565664673637833,
+        "spearman_std": 0.01711607966243937,
+        "spearman_min": 0.6293532988004104,
+        "spearman_max": 0.669723886612847
+      },
+      "k25": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.6895982571326791
+          },
+          {
+            "seed": 7,
+            "spearman": 0.6498753177486436
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.6780304892032604
+          },
+          {
+            "seed": 123,
+            "spearman": 0.6860568048065637
+          },
+          {
+            "seed": 999,
+            "spearman": 0.6873216207064369
+          }
+        ],
+        "spearman_mean": 0.6781764979195167,
+        "spearman_std": 0.016410112800913274,
+        "spearman_min": 0.6498753177486436,
+        "spearman_max": 0.6895982571326791
+      },
+      "k50": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.6915365158962417
+          },
+          {
+            "seed": 7,
+            "spearman": 0.6464846153538011
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.6760202544799494
+          },
+          {
+            "seed": 123,
+            "spearman": 0.679491342061137
+          },
+          {
+            "seed": 999,
+            "spearman": 0.681788524166858
+          }
+        ],
+        "spearman_mean": 0.6750642503915973,
+        "spearman_std": 0.016984257505269683,
+        "spearman_min": 0.6464846153538011,
+        "spearman_max": 0.6915365158962417
+      },
+      "k100": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.6903948792442429
+          },
+          {
+            "seed": 7,
+            "spearman": 0.6434570811967245
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.672891978091014
+          },
+          {
+            "seed": 123,
+            "spearman": 0.6776433946557777
+          },
+          {
+            "seed": 999,
+            "spearman": 0.6797925046665317
+          }
+        ],
+        "spearman_mean": 0.6728359675708581,
+        "spearman_std": 0.017627693017356613,
+        "spearman_min": 0.6434570811967245,
+        "spearman_max": 0.6903948792442429
+      },
+      "k217": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.6594759194026848
+          },
+          {
+            "seed": 7,
+            "spearman": 0.6101054544653414
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.6462238623422746
+          },
+          {
+            "seed": 123,
+            "spearman": 0.6508467263965044
+          },
+          {
+            "seed": 999,
+            "spearman": 0.654655560005904
+          }
+        ],
+        "spearman_mean": 0.6442615045225418,
+        "spearman_std": 0.01970638576951829,
+        "spearman_min": 0.6101054544653414,
+        "spearman_max": 0.6594759194026848
+      }
+    },
+    "scaffold_summary": {
+      "k_grid": [
+        0,
+        10,
+        25,
+        50,
+        100,
+        217
+      ],
+      "k_means": [
+        0.48082620665627146,
+        0.6565664673637833,
+        0.6781764979195167,
+        0.6750642503915973,
+        0.6728359675708581,
+        0.6442615045225418
+      ],
+      "between_k_std": 0.07644671735085534,
+      "mean_within_k_seed_std": 0.017876770822168465,
+      "between_exceeds_within": true
+    },
+    "random": {
+      "k0": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.7134173499944183
+          },
+          {
+            "seed": 7,
+            "spearman": 0.7088663516413817
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.7151662644655495
+          },
+          {
+            "seed": 123,
+            "spearman": 0.6830101622627952
+          },
+          {
+            "seed": 999,
+            "spearman": 0.7036695880487578
+          }
+        ],
+        "spearman_mean": 0.7048259432825804,
+        "spearman_std": 0.012983882990953185,
+        "spearman_min": 0.6830101622627952,
+        "spearman_max": 0.7151662644655495
+      },
+      "k10": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.7444705560803468
+          },
+          {
+            "seed": 7,
+            "spearman": 0.7349517627506812
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.7426632754669431
+          },
+          {
+            "seed": 123,
+            "spearman": 0.7198158155738307
+          },
+          {
+            "seed": 999,
+            "spearman": 0.7401647582910188
+          }
+        ],
+        "spearman_mean": 0.7364132336325642,
+        "spearman_std": 0.009945697418695523,
+        "spearman_min": 0.7198158155738307,
+        "spearman_max": 0.7444705560803468
+      },
+      "k25": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.7501023230718217
+          },
+          {
+            "seed": 7,
+            "spearman": 0.7369997300411653
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.7442685299395512
+          },
+          {
+            "seed": 123,
+            "spearman": 0.7211863738239057
+          },
+          {
+            "seed": 999,
+            "spearman": 0.7415924475630669
+          }
+        ],
+        "spearman_mean": 0.7388298808879022,
+        "spearman_std": 0.010942136726556721,
+        "spearman_min": 0.7211863738239057,
+        "spearman_max": 0.7501023230718217
+      },
+      "k50": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.7507011218754642
+          },
+          {
+            "seed": 7,
+            "spearman": 0.7371739808468032
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.7480561286481264
+          },
+          {
+            "seed": 123,
+            "spearman": 0.7188186635913419
+          },
+          {
+            "seed": 999,
+            "spearman": 0.7442235478191612
+          }
+        ],
+        "spearman_mean": 0.7397946885561794,
+        "spearman_std": 0.012783565687393365,
+        "spearman_min": 0.7188186635913419,
+        "spearman_max": 0.7507011218754642
+      },
+      "k100": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.7511196783513758
+          },
+          {
+            "seed": 7,
+            "spearman": 0.738086976441573
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.7464006503550453
+          },
+          {
+            "seed": 123,
+            "spearman": 0.7210903918211562
+          },
+          {
+            "seed": 999,
+            "spearman": 0.7428246195854638
+          }
+        ],
+        "spearman_mean": 0.7399044633109227,
+        "spearman_std": 0.011551854307056917,
+        "spearman_min": 0.7210903918211562,
+        "spearman_max": 0.7511196783513758
+      },
+      "k217": {
+        "runs": [
+          {
+            "seed": 42,
+            "spearman": 0.7456634564896115
+          },
+          {
+            "seed": 7,
+            "spearman": 0.737198898596382
+          },
+          {
+            "seed": 2024,
+            "spearman": 0.7469238163560489
+          },
+          {
+            "seed": 123,
+            "spearman": 0.7173569650748403
+          },
+          {
+            "seed": 999,
+            "spearman": 0.7407941191834861
+          }
+        ],
+        "spearman_mean": 0.7375874511400736,
+        "spearman_std": 0.011959262490924043,
+        "spearman_min": 0.7173569650748403,
+        "spearman_max": 0.7469238163560489
+      }
+    },
+    "random_summary": {
+      "k_grid": [
+        0,
+        10,
+        25,
+        50,
+        100,
+        217
+      ],
+      "k_means": [
+        0.7048259432825804,
+        0.7364132336325642,
+        0.7388298808879022,
+        0.7397946885561794,
+        0.7399044633109227,
+        0.7375874511400736
+      ],
+      "between_k_std": 0.013814702787720814,
+      "mean_within_k_seed_std": 0.011694399936929958,
+      "between_exceeds_within": true
+    }
+  },
+  "seeds_used": [
+    42,
+    7,
+    2024,
+    123,
+    999
+  ],
+  "note": "permutation_importance\ub294 scoring=Spearman\uc73c\ub85c held-out test set\uc5d0\uc11c n_repeats=10\uc73c\ub85c \uacc4\uc0b0\ud588\ub2e4 (RF built-in feature_importances_\ub294 Gini/MSE-\uac10\uc18c \uae30\ubc18\uc774\ub77c \uc5f0\uc18d\ud615 descriptor\ub97c \uc774\uc9c4 fingerprint \ube44\ud2b8\ubcf4\ub2e4 \uacfc\ub300\ud3c9\uac00\ud558\ub294 \uacbd\ud5a5\uc774 \uc788\uc5b4 \ub300\uc870\uad70\uc73c\ub85c \ud568\uaed8 \ubcf4\uace0\ud55c\ub2e4). descriptor ranking\uc740 scaffold/random split \uac01\uac01 seed=42 \uacb0\uacfc\ub85c 1\ud68c\ub9cc \uace0\uc815\ud55c \ub4a4 k-ablation \uc804\uccb4\uc5d0 \uc7ac\uc0ac\uc6a9\ud588\ub2e4(\uac19\uc740 k\uac00 seed\ub9c8\ub2e4 \ub2e4\ub978 descriptor \uc9d1\ud569\uc744 \uc4f0\uba74 \ube44\uad50\uac00 \uae68\uc9c0\ubbc0\ub85c). H2_multiseed_ablation\uc740 \ub3d9\uc77c k\uc5d0\uc11c (split, RF random_state) \uc2dc\ub4dc \uc30d\uc744 5\uac1c(42,7,2024,123,999 - H1\uc758 3\uac1c \uc2dc\ub4dc\uc5d0 2\uac1c \ucd94\uac00)\ub85c \ubc14\uafd4 \ubc18\ubcf5\ud55c \uacb0\uacfc\uc774\uba70, k \ud3c9\uade0\ub4e4\uc758 \ud45c\uc900\ud3b8\ucc28(between_k_std)\uc640 \ub3d9\uc77c k \ub0b4 \uc2dc\ub4dc \ud45c\uc900\ud3b8\ucc28\uc758 \ud3c9\uade0(mean_within_k_seed_std)\uc744 \ube44\uad50\ud574 k\ud6a8\uacfc\uac00 \uc2dc\ub4dc \uc7a1\uc74c\ubcf4\ub2e4 \ud070\uc9c0(between_exceeds_within) \ud310\ub2e8\ud55c\ub2e4. \uc2dc\ub4dc\uac00 split\uacfc RF random_state\uc5d0 \ub3d9\uc2dc\uc5d0 \uc801\uc6a9\ub418\ubbc0\ub85c \uc774 noise \ucd94\uc815\uce58\ub294 \ub450 \uc694\uc778\uc744 \ud569\uce5c \ubcf4\uc218\uc801(\uc0c1\ud55c) \ucd94\uc815\uc774\ub2e4.",
+  "elapsed_sec": 4253.0
+}

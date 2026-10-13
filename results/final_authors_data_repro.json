@@ -1,0 +1,32 @@
+{
+  "X_fps_shape": [
+    7451,
+    2048
+  ],
+  "X_dps_shape": [
+    7451,
+    211
+  ],
+  "authors_exact_split_val_spearman": 0.5827745396327899,
+  "authors_exact_split_test_spearman": 0.6315748355274773,
+  "authors_exact_split_val_plus_test_spearman": 0.6035441943392518,
+  "cv_test_spearman_per_fold": [
+    0.6548046673836649,
+    0.4408604377764937,
+    0.6271531266109026,
+    0.461982806253816,
+    0.4914478016497286,
+    0.7566970345922758,
+    0.6147900743836556,
+    0.6315748355274773,
+    0.4843762079443394
+  ],
+  "cv_test_spearman_mean": 0.5737429991247059,
+  "cv_test_spearman_std": 0.10156127722066645,
+  "paper_fig2a_RF_FPS_DPS_mean_std": [
+    0.547,
+    0.142
+  ],
+  "paper_fig2c_final_model_reported": 0.82,
+  "note": "Uses the AUTHORS' OWN precomputed fps(2048)+descriptor(211) feature matrices and their exact scaffold_k_fold split indices (data/cpp/scaffold_k_fold_idxes.pkl), with a freshly trained RandomForestRegressor(n_estimators=300, random_state=42) since their saved pickle is sklearn 0.23.2-incompatible with current sklearn. This isolates the comparison to just RF-hyperparameter/random_state differences from the authors' own (unknown) RF config - everything else (features, split) is now identical to the authors' pipeline."
+}

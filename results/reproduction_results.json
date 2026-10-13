@@ -1,0 +1,42 @@
+{
+  "cycpeptmpdb_raw_rows": 7451,
+  "cycpeptmpdb_valid_smiles": 7451,
+  "cycpeptmpdb_invalid_smiles": 0,
+  "target_col": "score (-logPapp membrane permeability)",
+  "target_min": -10.0,
+  "target_max": -3.9,
+  "target_mean": -5.866279694000805,
+  "n_scaffold_clusters": 1251,
+  "split_sizes": {
+    "train": 5960,
+    "val": 745,
+    "test": 746
+  },
+  "val_rmse": 0.8975793968160247,
+  "val_r2": 0.26237780448213244,
+  "test_rmse": 1.0900969488099101,
+  "test_mae": 0.8034063651741211,
+  "test_r2": 0.1503477036983304,
+  "random_split_test_r2": 0.37203402887704207,
+  "random_split_test_rmse": 0.7899781748254764,
+  "chembl_raw_rows": 20783,
+  "chembl_columns": [
+    "molregno",
+    "description",
+    "HELM",
+    "pref_name",
+    "chembl_id",
+    "structure_type",
+    "molecule_type",
+    "oral",
+    "withdrawn_flag",
+    "helm_len",
+    "cano_smi"
+  ],
+  "chembl_valid_smiles": 20774,
+  "chembl_invalid_smiles": 9,
+  "chembl_helm_len_mean": 53.25145551652793,
+  "chembl_helm_len_median": 46.0,
+  "chembl_has_activity_label": false,
+  "chembl_note": "No IC50/Ki/bioactivity column in this file - it is a HELM sequence corpus for GPT prior pretraining, not a supervised regression dataset. Supervised reproduction was not possible on this file; only data-quality EDA performed."
+}

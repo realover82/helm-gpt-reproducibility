@@ -1,0 +1,15 @@
+{
+  "total_rows": 7451,
+  "n_high_perm_gt_neg6": 5057,
+  "n_low_perm_lt_neg6": 2394,
+  "lightgbm_scaffold_test_r2": 0.1503477036983304,
+  "lightgbm_scaffold_test_rmse": 1.0900969488099101,
+  "lightgbm_scaffold_test_spearman": 0.42176794642580834,
+  "randomforest_scaffold_test_r2": 0.21872411094910116,
+  "randomforest_scaffold_test_rmse": 1.0453138801338862,
+  "randomforest_scaffold_test_spearman": 0.46076761788167586,
+  "randomforest_random_test_spearman": 0.6278615699988088,
+  "randomforest_random_test_r2": 0.2884090038365712,
+  "paper_reported_spearman_RF_fp_desc": 0.82,
+  "note": "Paper uses fingerprints+descriptors (not pure ECFP4) and unspecified split method (likely random, not scaffold) for its r=0.82. Our scaffold-split numbers are expected to be lower due to the harder, leakage-free split and fingerprint-only features (no descriptors)."
+}

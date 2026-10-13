@@ -1,0 +1,5 @@
+{
+  "sklearn_version": "1.9.1",
+  "model_load": "FAILED: node array from the pickle has an incompatible dtype:\n- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}\n- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]",
+  "note": "This uses the AUTHORS' OWN saved RandomForestRegressor (data/cpp/regression_rf.pkl) and their OWN precomputed fps+descriptor features (X_fps.npy, X_dps.npy, via git-lfs), evaluated on their exact scaffold_k_fold split (val_split=7, test=8) using their exact notebook code (1.eval_cpp_pred.ipynb). This is the ground-truth number, not a reimplementation."
+}

@@ -1,0 +1,18 @@
+{
+  "total_rows": 7451,
+  "n_rdkit_descriptors": 217,
+  "fp_only_scaffold_spearman": 0.46076761788167586,
+  "fp_only_scaffold_r2": 0.21872411094910116,
+  "fp_only_scaffold_rmse": 1.0453138801338862,
+  "fp_plus_descriptors_scaffold_spearman": 0.6604268737694019,
+  "fp_plus_descriptors_scaffold_r2": 0.4408513990829044,
+  "fp_plus_descriptors_scaffold_rmse": 0.8843173129007799,
+  "fp_only_random_spearman": 0.6278615699988088,
+  "fp_only_random_r2": 0.2884090038365712,
+  "fp_only_random_rmse": 0.8409346738598931,
+  "fp_plus_descriptors_random_spearman": 0.6953937601873097,
+  "fp_plus_descriptors_random_r2": 0.37943971949387767,
+  "fp_plus_descriptors_random_rmse": 0.7853061980456079,
+  "paper_reported_spearman": 0.82,
+  "note": "fp_plus_descriptors uses full RDKit Descriptors._descList (210 descriptors) concatenated with ECFP4(2048-bit), matching the paper's stated feature combination (fingerprints + descriptors e.g. EState_VSA, MolLogP). Comparison to fp_only (v2 result) isolates the descriptor contribution."
+}
