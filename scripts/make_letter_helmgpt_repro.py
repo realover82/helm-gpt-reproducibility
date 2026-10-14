@@ -16,7 +16,8 @@ import json
 import pathlib
 
 from docx import Document
-from docx.shared import Pt
+from docx.shared import Pt, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -65,6 +66,18 @@ def table(header, rows):
             c.text = v
 
 
+def figure(image_path, caption, width_in=4.5):
+    para = doc.add_paragraph()
+    para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = para.add_run()
+    run.add_picture(str(ROOT / "analysis" / image_path), width=Inches(width_in))
+    cap = doc.add_paragraph()
+    cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    cap_run = cap.add_run(caption)
+    cap_run.italic = True
+    cap_run.font.size = Pt(9.5)
+
+
 # ----------------------------------------------------------------------- title
 h("A reproducibility note on the random-forest permeability predictor reported in HELM-GPT", 0)
 p("[Author Name(s) — to be completed before submission]")
@@ -108,6 +121,19 @@ p(
 )
 
 # ----------------------------------------------------------------------- methods
+figure(
+    "fig2a.png",
+    "Figure 1 (reproduced from Xu et al. 2024, Fig. 2a; CC BY 4.0). Spearman correlation of eight "
+    "representation/model combinations for permeability prediction, with error bars. The RF(fingerprint+"
+    "descriptor) bar (leftmost) is visibly centered below 0.6, well under the 0.82 reported elsewhere in "
+    "the same paper for the chosen final model.",
+)
+figure(
+    "fig2c.png",
+    "Figure 2 (reproduced from Xu et al. 2024, Fig. 2c; CC BY 4.0). Scatter plot of predicted vs. "
+    "experimental permeability for the final RF model on the paper's held-out test set, annotated r=0.82.",
+)
+
 h("Methods", 1)
 p(
     "We first reproduced the permeability predictor independently, computing ECFP4 (2048-bit) fingerprints "
@@ -239,6 +265,6 @@ p(
     "cyclic peptides. J Chem Inf Model 2023;63:2240–50."
 )
 
-out = ROOT / "HELM-GPT_reproducibility_letter_v1.docx"
+out = ROOT / "HELM-GPT_reproducibility_letter_v2.docx"
 doc.save(out)
 print(f"saved: {out}")

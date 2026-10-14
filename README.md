@@ -1,6 +1,6 @@
 # HELM-GPT permeability predictor: reproducibility check
 
-This repository accompanies a short reproducibility note (`HELM-GPT_reproducibility_letter_v1.docx`)
+This repository accompanies a short reproducibility note (`HELM-GPT_reproducibility_letter_v2.docx`)
 checking the Spearman r=0.82 figure reported for the random-forest (RF) permeability predictor in:
 
 > Xu X, Xu C, He W et al. HELM-GPT: de novo macrocyclic peptide design using generative pre-trained
@@ -41,7 +41,14 @@ results/
                                          scikit-learn (built under ~0.23.x; incompatible tree node
                                          dtype) - this is a logged failure, not silently skipped
 
-HELM-GPT_reproducibility_letter_v1.docx - the manuscript draft (Letter/Correspondence style)
+figures/
+  fig2a.png, fig2c.png            - panels (a) and (c) of Xu et al. 2024's Figure 2, cropped from
+                                     the original Open Access PDF (CC BY 4.0) and embedded in the
+                                     letter as Figure 1 and Figure 2, with attribution in the caption
+
+HELM-GPT_reproducibility_letter_v2.docx - the manuscript draft (Letter/Correspondence style),
+                                           now with the original paper's Fig. 2a/2c embedded for
+                                           direct visual comparison against our reproduction numbers
 ```
 
 ## Reproducing from scratch
